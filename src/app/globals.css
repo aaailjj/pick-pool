@@ -1,0 +1,102 @@
+/* src/app/globals.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Pool palette */
+  --pool-deep: #1a0a2e;
+  --pool-mid: #2d1b69;
+  --pool-surface: #4c2a8a;
+  --pool-shimmer: #7c3aed;
+  --pool-glow: #a78bfa;
+  --pool-pearl: #f5f0ff;
+
+  /* Status colors */
+  --status-online: #34d399;
+  --status-dnd: #f87171;
+  --status-offline: #6b7280;
+
+  /* Accent */
+  --sakura: #f472b6;
+  --gold: #fbbf24;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--pool-deep);
+  color: var(--pool-pearl);
+  font-family: 'Inter', -apple-system, sans-serif;
+  overflow: hidden;
+  height: 100dvh;
+  width: 100vw;
+}
+
+/* Pool water shimmer */
+@keyframes shimmer {
+  0% { opacity: 0.3; transform: translateX(-100%) rotate(-45deg); }
+  100% { opacity: 0; transform: translateX(300%) rotate(-45deg); }
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-8px); }
+}
+
+@keyframes ripple {
+  0% { transform: scale(1); opacity: 0.8; }
+  100% { transform: scale(3); opacity: 0; }
+}
+
+@keyframes pulse-glow {
+  0%, 100% { box-shadow: 0 0 8px var(--pool-glow); }
+  50% { box-shadow: 0 0 24px var(--pool-glow), 0 0 40px rgba(167, 139, 250, 0.3); }
+}
+
+.traveller-avatar {
+  animation: float 3s ease-in-out infinite;
+}
+
+.traveller-avatar:nth-child(2n) {
+  animation-delay: -1.5s;
+}
+
+.traveller-avatar:nth-child(3n) {
+  animation-delay: -0.8s;
+}
+
+.ripple-ring {
+  animation: ripple 1.5s ease-out forwards;
+}
+
+.glow-pulse {
+  animation: pulse-glow 2s ease-in-out infinite;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 4px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--pool-shimmer);
+  border-radius: 2px;
+}
+
+/* Glass panel */
+.glass {
+  background: rgba(45, 27, 105, 0.6);
+  backdrop-filter: blur(16px);
+  border: 1px solid rgba(167, 139, 250, 0.2);
+}
+
+.glass-dark {
+  background: rgba(26, 10, 46, 0.8);
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(167, 139, 250, 0.15);
+}
