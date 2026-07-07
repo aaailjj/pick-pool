@@ -42,30 +42,18 @@ type Entry = {
   lab: { L: number; a: number; b: number }
 }
 
-const PAGE_SIZE = 18
 const items: Entry[] = (paletteRaw as Entry[]).map(p => ({
   ...p,
   label: LABEL_MAP[p.file] ?? p.label,
 }))
-const TOTAL_PAGES = Math.ceil(items.length / PAGE_SIZE)
 const SIZE = 150
 
 export default function GalleryPage() {
-  const [page, setPage]         = useState(0)
   const [selected, setSelected] = useState<string | null>(null)
-
-  const pageItems = items.slice(page * PAGE_SIZE, (page + 1) * PAGE_SIZE)
   const sel = items.find(i => i.file === selected)
-
-  const goto = (p: number) => {
-    setPage(p)
-    setSelected(null)
-    window.scrollTo({ top: 0, behavior: 'smooth' })
-  }
 
   return (
     <>
-      {/* ONE WebGL context for all WaterButtonViews on this page */}
       <GalleryCanvas />
 
       <main style={{
@@ -75,11 +63,8 @@ export default function GalleryPage() {
         display: 'flex', flexDirection: 'column', alignItems: 'center',
         padding: '52px 24px 100px',
         position: 'relative',
-        // No z-index needed — Canvas (z:100) overlays on top, pointer-events:none
-        // lets clicks fall through to DOM elements here
       }}>
 
-        {/* Header */}
         <header style={{ textAlign: 'center', marginBottom: 48 }}>
           <h1 style={{
             color: '#2a1f1a', fontSize: 17, fontWeight: 300,
@@ -95,39 +80,30 @@ export default function GalleryPage() {
           </p>
         </header>
 
-        {/* Grid — current page */}
         <div style={{
           display: 'flex', flexWrap: 'wrap', justifyContent: 'center',
-          gap: '16px 10px', maxWidth: 1160,
+          gap: '16px 10px', maxWidth: 1200,
         }}>
-          {pageItems.map(item => (
+          {items.map(item => (
             <div
               key={item.file}
               onClick={() => setSelected(item.file === selected ? null : item.file)}
-              style={{
-                display: 'flex', flexDirection: 'column',
-                alignItems: 'center', gap: 7, cursor: 'pointer',
-              }}
+              style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 7, cursor: 'pointer' }}
             >
               <div style={{
                 borderRadius: '50%',
-                boxShadow: selected === item.file
-                  ? '0 0 0 2px rgba(42,31,26,0.5)'
-                  : '0 0 0 2px transparent',
+                boxShadow: selected === item.file ? '0 0 0 2px rgba(42,31,26,0.5)' : '0 0 0 2px transparent',
                 transition: 'box-shadow 0.2s',
               }}>
                 <WaterButtonView textureUrl={item.url} size={SIZE} />
               </div>
-
               <span style={{
                 fontSize: 9, letterSpacing: '0.09em', textTransform: 'uppercase',
-                color: selected === item.file
-                  ? 'rgba(42,31,26,0.75)' : 'rgba(42,31,26,0.38)',
+                color: selected === item.file ? 'rgba(42,31,26,0.75)' : 'rgba(42,31,26,0.38)',
                 transition: 'color 0.2s', textAlign: 'center', maxWidth: 100,
               }}>
                 {item.label}
               </span>
-
               <div style={{
                 width: 7, height: 7, borderRadius: '50%',
                 background: `rgb(${item.rgb.r},${item.rgb.g},${item.rgb.b})`,
@@ -137,65 +113,9 @@ export default function GalleryPage() {
           ))}
         </div>
 
-        {/* Pagination */}
-        <div style={{ display: 'flex', alignItems: 'center', gap: 8, marginTop: 52 }}>
-          <button
-            onClick={() => goto(page - 1)}
-            disabled={page === 0}
-            style={{
-              padding: '8px 18px', borderRadius: 8, border: 'none',
-              background: page === 0 ? 'rgba(42,31,26,0.08)' : 'rgba(42,31,26,0.14)',
-              color: page === 0 ? 'rgba(42,31,26,0.28)' : '#2a1f1a',
-              cursor: page === 0 ? 'default' : 'pointer',
-              fontSize: 11, letterSpacing: '0.1em',
-            }}
-          >
-            ← PREV
-          </button>
-
-          {Array.from({ length: TOTAL_PAGES }, (_, i) => (
-            <button
-              key={i}
-              onClick={() => goto(i)}
-              style={{
-                width: 32, height: 32, borderRadius: '50%', border: 'none',
-                background: i === page ? '#2a1f1a' : 'rgba(42,31,26,0.1)',
-                color: i === page ? '#ede8e0' : 'rgba(42,31,26,0.5)',
-                cursor: 'pointer', fontSize: 11,
-              }}
-            >
-              {i + 1}
-            </button>
-          ))}
-
-          <button
-            onClick={() => goto(page + 1)}
-            disabled={page === TOTAL_PAGES - 1}
-            style={{
-              padding: '8px 18px', borderRadius: 8, border: 'none',
-              background: page === TOTAL_PAGES - 1
-                ? 'rgba(42,31,26,0.08)' : 'rgba(42,31,26,0.14)',
-              color: page === TOTAL_PAGES - 1
-                ? 'rgba(42,31,26,0.28)' : '#2a1f1a',
-              cursor: page === TOTAL_PAGES - 1 ? 'default' : 'pointer',
-              fontSize: 11, letterSpacing: '0.1em',
-            }}
-          >
-            NEXT →
-          </button>
-        </div>
-
-        <p style={{
-          marginTop: 12, fontSize: 10,
-          color: 'rgba(42,31,26,0.3)', letterSpacing: '0.1em',
-        }}>
-          Page {page + 1} / {TOTAL_PAGES} · {pageItems.length} of {items.length} colors
-        </p>
-
-        {/* Selected color detail */}
         {sel && (
           <div style={{
-            position: 'sticky', bottom: 20, marginTop: 32,
+            position: 'sticky', bottom: 20, marginTop: 48,
             padding: '16px 24px',
             background: 'rgba(255,254,252,0.9)',
             borderRadius: 12, display: 'flex', gap: 16, alignItems: 'center',
@@ -209,9 +129,7 @@ export default function GalleryPage() {
               boxShadow: '0 1px 6px rgba(0,0,0,0.12)',
             }} />
             <div style={{ display: 'flex', flexDirection: 'column', gap: 2 }}>
-              <span style={{ fontSize: 12, fontWeight: 500, color: '#2a1f1a' }}>
-                {sel.label}
-              </span>
+              <span style={{ fontSize: 12, fontWeight: 500, color: '#2a1f1a' }}>{sel.label}</span>
               <span style={{ fontSize: 9, color: 'rgba(42,31,26,0.4)', fontFamily: 'monospace' }}>
                 L {sel.lab.L} · a {sel.lab.a} · b {sel.lab.b}
               </span>
