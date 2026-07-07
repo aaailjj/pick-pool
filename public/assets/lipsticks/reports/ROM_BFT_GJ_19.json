@@ -1,0 +1,9 @@
+{
+  "file": "ROM_BFT_GJ_19.png",
+  "status": "INVALID",
+  "reason": "Dominant saturation too low: 0.040 (min 0.15). Likely achromatic packaging.",
+  "source": {
+    "w": 512,
+    "h": 512
+  }
+}

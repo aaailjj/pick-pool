@@ -1,0 +1,27 @@
+{
+  "file": "ROM_ZVT_VF_25.png",
+  "status": "NORMALIZED",
+  "source": {
+    "w": 512,
+    "h": 512
+  },
+  "swatch": {
+    "x": 118,
+    "y": 102,
+    "w": 276,
+    "h": 307,
+    "bboxAR": 0.899
+  },
+  "fill": 14.04,
+  "avgSat": 0.348,
+  "orientation": {
+    "detectedDeg": 0.3,
+    "rotatedDeg": -41.2
+  },
+  "dominantColor": {
+    "r": 119,
+    "g": 94,
+    "b": 102
+  },
+  "output": "normalized/ROM_ZVT_VF_25.png"
+}

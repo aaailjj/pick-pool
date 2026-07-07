@@ -1,0 +1,27 @@
+{
+  "file": "ROM_BFT_EB_10.png",
+  "status": "NORMALIZED",
+  "source": {
+    "w": 512,
+    "h": 512
+  },
+  "swatch": {
+    "x": 158,
+    "y": 102,
+    "w": 197,
+    "h": 307,
+    "bboxAR": 0.642
+  },
+  "fill": 16.44,
+  "avgSat": 0.621,
+  "orientation": {
+    "detectedDeg": 0.6,
+    "rotatedDeg": 26.7
+  },
+  "dominantColor": {
+    "r": 202,
+    "g": 77,
+    "b": 77
+  },
+  "output": "normalized/ROM_BFT_EB_10.png"
+}

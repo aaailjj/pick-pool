@@ -1,0 +1,27 @@
+{
+  "file": "ROM_ZVT_WIN_30.png",
+  "status": "NORMALIZED",
+  "source": {
+    "w": 512,
+    "h": 512
+  },
+  "swatch": {
+    "x": 178,
+    "y": 102,
+    "w": 156,
+    "h": 307,
+    "bboxAR": 0.508
+  },
+  "fill": 11.47,
+  "avgSat": 0.542,
+  "orientation": {
+    "detectedDeg": 0.5,
+    "rotatedDeg": 29.6
+  },
+  "dominantColor": {
+    "r": 109,
+    "g": 58,
+    "b": 51
+  },
+  "output": "normalized/ROM_ZVT_WIN_30.png"
+}

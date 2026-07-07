@@ -1,0 +1,27 @@
+{
+  "file": "ROM_ZML_02.png",
+  "status": "NORMALIZED",
+  "source": {
+    "w": 512,
+    "h": 512
+  },
+  "swatch": {
+    "x": 192,
+    "y": 102,
+    "w": 128,
+    "h": 307,
+    "bboxAR": 0.417
+  },
+  "fill": 10.69,
+  "avgSat": 0.644,
+  "orientation": {
+    "detectedDeg": 0.6,
+    "rotatedDeg": 27.1
+  },
+  "dominantColor": {
+    "r": 156,
+    "g": 65,
+    "b": 55
+  },
+  "output": "normalized/ROM_ZML_02.png"
+}

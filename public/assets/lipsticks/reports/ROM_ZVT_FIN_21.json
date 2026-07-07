@@ -1,0 +1,27 @@
+{
+  "file": "ROM_ZVT_FIN_21.png",
+  "status": "NORMALIZED",
+  "source": {
+    "w": 512,
+    "h": 512
+  },
+  "swatch": {
+    "x": 116,
+    "y": 102,
+    "w": 279,
+    "h": 307,
+    "bboxAR": 0.909
+  },
+  "fill": 14.73,
+  "avgSat": 0.528,
+  "orientation": {
+    "detectedDeg": 0.5,
+    "rotatedDeg": -40.8
+  },
+  "dominantColor": {
+    "r": 86,
+    "g": 41,
+    "b": 45
+  },
+  "output": "normalized/ROM_ZVT_FIN_21.png"
+}

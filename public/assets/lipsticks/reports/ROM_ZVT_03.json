@@ -1,0 +1,27 @@
+{
+  "file": "ROM_ZVT_03.png",
+  "status": "NORMALIZED",
+  "source": {
+    "w": 512,
+    "h": 512
+  },
+  "swatch": {
+    "x": 171,
+    "y": 102,
+    "w": 170,
+    "h": 307,
+    "bboxAR": 0.554
+  },
+  "fill": 13.28,
+  "avgSat": 0.804,
+  "orientation": {
+    "detectedDeg": 0.8,
+    "rotatedDeg": 24.9
+  },
+  "dominantColor": {
+    "r": 131,
+    "g": 33,
+    "b": 28
+  },
+  "output": "normalized/ROM_ZVT_03.png"
+}

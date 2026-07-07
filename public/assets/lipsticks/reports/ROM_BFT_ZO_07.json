@@ -1,0 +1,27 @@
+{
+  "file": "ROM_BFT_ZO_07.png",
+  "status": "NORMALIZED",
+  "source": {
+    "w": 512,
+    "h": 512
+  },
+  "swatch": {
+    "x": 160,
+    "y": 102,
+    "w": 192,
+    "h": 307,
+    "bboxAR": 0.625
+  },
+  "fill": 16.55,
+  "avgSat": 0.486,
+  "orientation": {
+    "detectedDeg": 0.5,
+    "rotatedDeg": 19.8
+  },
+  "dominantColor": {
+    "r": 144,
+    "g": 74,
+    "b": 81
+  },
+  "output": "normalized/ROM_BFT_ZO_07.png"
+}

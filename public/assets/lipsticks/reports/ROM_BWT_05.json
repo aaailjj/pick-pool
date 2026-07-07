@@ -1,0 +1,27 @@
+{
+  "file": "ROM_BWT_05.png",
+  "status": "NORMALIZED",
+  "source": {
+    "w": 512,
+    "h": 512
+  },
+  "swatch": {
+    "x": 190,
+    "y": 102,
+    "w": 132,
+    "h": 306,
+    "bboxAR": 0.431
+  },
+  "fill": 11.21,
+  "avgSat": 0.664,
+  "orientation": {
+    "detectedDeg": 0.7,
+    "rotatedDeg": 24
+  },
+  "dominantColor": {
+    "r": 185,
+    "g": 63,
+    "b": 77
+  },
+  "output": "normalized/ROM_BWT_05.png"
+}

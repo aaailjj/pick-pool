@@ -1,0 +1,27 @@
+{
+  "file": "ROM_LMP_05.png",
+  "status": "NORMALIZED",
+  "source": {
+    "w": 512,
+    "h": 512
+  },
+  "swatch": {
+    "x": 184,
+    "y": 106,
+    "w": 145,
+    "h": 303,
+    "bboxAR": 0.479
+  },
+  "fill": 3.07,
+  "avgSat": 0.235,
+  "orientation": {
+    "detectedDeg": 0.2,
+    "rotatedDeg": 43.7
+  },
+  "dominantColor": {
+    "r": 185,
+    "g": 163,
+    "b": 141
+  },
+  "output": "normalized/ROM_LMP_05.png"
+}

@@ -1,0 +1,9 @@
+{
+  "file": "ROM_CLM_00.png",
+  "status": "INVALID",
+  "reason": "No coloured region detected after background removal",
+  "source": {
+    "w": 288,
+    "h": 476
+  }
+}

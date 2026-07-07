@@ -1,0 +1,27 @@
+{
+  "file": "02.png",
+  "status": "NORMALIZED",
+  "source": {
+    "w": 512,
+    "h": 512
+  },
+  "swatch": {
+    "x": 142,
+    "y": 103,
+    "w": 227,
+    "h": 306,
+    "bboxAR": 0.742
+  },
+  "fill": 21.31,
+  "avgSat": 0.488,
+  "orientation": {
+    "detectedDeg": 0.5,
+    "rotatedDeg": 17.4
+  },
+  "dominantColor": {
+    "r": 157,
+    "g": 83,
+    "b": 80
+  },
+  "output": "normalized/02.png"
+}

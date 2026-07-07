@@ -1,0 +1,27 @@
+{
+  "file": "real.png",
+  "status": "NORMALIZED",
+  "source": {
+    "w": 512,
+    "h": 512
+  },
+  "swatch": {
+    "x": 111,
+    "y": 102,
+    "w": 290,
+    "h": 307,
+    "bboxAR": 0.945
+  },
+  "fill": 25.86,
+  "avgSat": 0.512,
+  "orientation": {
+    "detectedDeg": 0.5,
+    "rotatedDeg": 43.9
+  },
+  "dominantColor": {
+    "r": 192,
+    "g": 97,
+    "b": 94
+  },
+  "output": "normalized/real.png"
+}

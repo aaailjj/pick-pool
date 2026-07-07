@@ -1,0 +1,27 @@
+{
+  "file": "ROM_MTVT_06.png",
+  "status": "NORMALIZED",
+  "source": {
+    "w": 512,
+    "h": 512
+  },
+  "swatch": {
+    "x": 190,
+    "y": 102,
+    "w": 132,
+    "h": 307,
+    "bboxAR": 0.43
+  },
+  "fill": 12.11,
+  "avgSat": 0.739,
+  "orientation": {
+    "detectedDeg": 0.7,
+    "rotatedDeg": 16
+  },
+  "dominantColor": {
+    "r": 98,
+    "g": 31,
+    "b": 27
+  },
+  "output": "normalized/ROM_MTVT_06.png"
+}

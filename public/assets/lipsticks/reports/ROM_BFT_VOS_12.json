@@ -1,0 +1,27 @@
+{
+  "file": "ROM_BFT_VOS_12.png",
+  "status": "NORMALIZED",
+  "source": {
+    "w": 512,
+    "h": 512
+  },
+  "swatch": {
+    "x": 180,
+    "y": 102,
+    "w": 152,
+    "h": 306,
+    "bboxAR": 0.497
+  },
+  "fill": 11.35,
+  "avgSat": 0.396,
+  "orientation": {
+    "detectedDeg": 0.4,
+    "rotatedDeg": 28.4
+  },
+  "dominantColor": {
+    "r": 215,
+    "g": 149,
+    "b": 130
+  },
+  "output": "normalized/ROM_BFT_VOS_12.png"
+}

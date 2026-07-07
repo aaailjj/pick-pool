@@ -1,0 +1,27 @@
+{
+  "file": "ROM_ZVT_BKD_13.png",
+  "status": "NORMALIZED",
+  "source": {
+    "w": 512,
+    "h": 512
+  },
+  "swatch": {
+    "x": 115,
+    "y": 102,
+    "w": 281,
+    "h": 307,
+    "bboxAR": 0.915
+  },
+  "fill": 14.34,
+  "avgSat": 0.561,
+  "orientation": {
+    "detectedDeg": 0.6,
+    "rotatedDeg": -39.8
+  },
+  "dominantColor": {
+    "r": 185,
+    "g": 83,
+    "b": 87
+  },
+  "output": "normalized/ROM_ZVT_BKD_13.png"
+}

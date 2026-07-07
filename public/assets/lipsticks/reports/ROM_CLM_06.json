@@ -1,0 +1,27 @@
+{
+  "file": "ROM_CLM_06.png",
+  "status": "NORMALIZED",
+  "source": {
+    "w": 512,
+    "h": 512
+  },
+  "swatch": {
+    "x": 169,
+    "y": 103,
+    "w": 174,
+    "h": 306,
+    "bboxAR": 0.569
+  },
+  "fill": 12.05,
+  "avgSat": 0.432,
+  "orientation": {
+    "detectedDeg": 0.4,
+    "rotatedDeg": 35.3
+  },
+  "dominantColor": {
+    "r": 218,
+    "g": 125,
+    "b": 137
+  },
+  "output": "normalized/ROM_CLM_06.png"
+}

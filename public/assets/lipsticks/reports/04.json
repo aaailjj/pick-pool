@@ -1,0 +1,27 @@
+{
+  "file": "04.png",
+  "status": "NORMALIZED",
+  "source": {
+    "w": 512,
+    "h": 512
+  },
+  "swatch": {
+    "x": 133,
+    "y": 102,
+    "w": 246,
+    "h": 307,
+    "bboxAR": 0.801
+  },
+  "fill": 20.87,
+  "avgSat": 0.458,
+  "orientation": {
+    "detectedDeg": 0.5,
+    "rotatedDeg": 11.8
+  },
+  "dominantColor": {
+    "r": 104,
+    "g": 61,
+    "b": 56
+  },
+  "output": "normalized/04.png"
+}

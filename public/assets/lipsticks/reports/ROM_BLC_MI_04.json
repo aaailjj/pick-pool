@@ -1,0 +1,27 @@
+{
+  "file": "ROM_BLC_MI_04.png",
+  "status": "NORMALIZED",
+  "source": {
+    "w": 512,
+    "h": 512
+  },
+  "swatch": {
+    "x": 148,
+    "y": 102,
+    "w": 216,
+    "h": 307,
+    "bboxAR": 0.704
+  },
+  "fill": 9.9,
+  "avgSat": 0.338,
+  "orientation": {
+    "detectedDeg": 0.3,
+    "rotatedDeg": -18.5
+  },
+  "dominantColor": {
+    "r": 214,
+    "g": 142,
+    "b": 143
+  },
+  "output": "normalized/ROM_BLC_MI_04.png"
+}
