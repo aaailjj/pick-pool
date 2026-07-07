@@ -1,66 +1,24 @@
 [
   {
-    "file": "ROM_BFT_GJ_19.png",
-    "url": "/textures/lipstick/ROM_BFT_GJ_19.png",
-    "label": "Cool Pink",
-    "rgb": {
-      "r": 69,
-      "g": 64,
-      "b": 65
-    },
-    "lab": {
-      "L": 27.6,
-      "a": 2.3,
-      "b": 0.2
-    },
-    "hsv": {
-      "h": 348,
-      "s": 0.072,
-      "v": 0.271
-    },
-    "sortKey": 3809.647865032465
-  },
-  {
     "file": "ROM_LMP_09.png",
     "url": "/textures/lipstick/ROM_LMP_09.png",
     "label": "Cool Pink",
     "rgb": {
-      "r": 126,
+      "r": 127,
       "g": 43,
       "b": 67
     },
     "lab": {
-      "L": 30.8,
-      "a": 38,
-      "b": 4.5
+      "L": 31,
+      "a": 38.4,
+      "b": 4.8
     },
     "hsv": {
-      "h": 342.7,
-      "s": 0.659,
-      "v": 0.494
+      "h": 342.9,
+      "s": 0.661,
+      "v": 0.498
     },
-    "sortKey": 6789.297777679304
-  },
-  {
-    "file": "ROM_BFT_05.png",
-    "url": "/textures/lipstick/ROM_BFT_05.png",
-    "label": "Warm Pink",
-    "rgb": {
-      "r": 194,
-      "g": 83,
-      "b": 110
-    },
-    "lab": {
-      "L": 50.4,
-      "a": 47,
-      "b": 7.1
-    },
-    "hsv": {
-      "h": 345.4,
-      "s": 0.572,
-      "v": 0.761
-    },
-    "sortKey": 8606.855211353823
+    "sortKey": 7144.814744842124
   },
   {
     "file": "05.png",
@@ -84,46 +42,46 @@
     "sortKey": 8988.592387626646
   },
   {
+    "file": "ROM_BFT_05.png",
+    "url": "/textures/lipstick/ROM_BFT_05.png",
+    "label": "Warm Pink",
+    "rgb": {
+      "r": 195,
+      "g": 84,
+      "b": 110
+    },
+    "lab": {
+      "L": 50.8,
+      "a": 46.8,
+      "b": 7.6
+    },
+    "hsv": {
+      "h": 345.9,
+      "s": 0.569,
+      "v": 0.765
+    },
+    "sortKey": 9228.353606036504
+  },
+  {
     "file": "ROM_ZVT_VF_25.png",
     "url": "/textures/lipstick/ROM_ZVT_VF_25.png",
     "label": "Cool Pink",
     "rgb": {
       "r": 123,
-      "g": 76,
-      "b": 84
+      "g": 77,
+      "b": 85
     },
     "lab": {
-      "L": 37.9,
-      "a": 21,
-      "b": 3.7
+      "L": 38.2,
+      "a": 20.6,
+      "b": 3.4
     },
     "hsv": {
-      "h": 349.8,
-      "s": 0.382,
+      "h": 349.6,
+      "s": 0.374,
       "v": 0.482
     },
-    "sortKey": 9933.231379971043
-  },
-  {
-    "file": "ROM_ZVT_FIN_18.png",
-    "url": "/textures/lipstick/ROM_ZVT_FIN_18.png",
-    "label": "Pink",
-    "rgb": {
-      "r": 148,
-      "g": 85,
-      "b": 96
-    },
-    "lab": {
-      "L": 43.7,
-      "a": 27.5,
-      "b": 5
-    },
-    "hsv": {
-      "h": 349.5,
-      "s": 0.426,
-      "v": 0.58
-    },
-    "sortKey": 10452.98322637975
+    "sortKey": 9523.207985156338
   },
   {
     "file": "ROM_BWT_02.png",
@@ -147,25 +105,25 @@
     "sortKey": 11319.59849065951
   },
   {
-    "file": "ROM_ZML_MN_22.png",
-    "url": "/textures/lipstick/ROM_ZML_MN_22.png",
+    "file": "ROM_ZVT_FIN_18.png",
+    "url": "/textures/lipstick/ROM_ZVT_FIN_18.png",
     "label": "Pink",
     "rgb": {
-      "r": 155,
-      "g": 95,
-      "b": 104
+      "r": 148,
+      "g": 86,
+      "b": 96
     },
     "lab": {
-      "L": 47.2,
-      "a": 25.6,
-      "b": 5.3
+      "L": 43.9,
+      "a": 26.9,
+      "b": 5.4
     },
     "hsv": {
-      "h": 351,
-      "s": 0.387,
-      "v": 0.608
+      "h": 350.3,
+      "s": 0.419,
+      "v": 0.58
     },
-    "sortKey": 11678.386444803384
+    "sortKey": 11343.725362123316
   },
   {
     "file": "ROM_ZVT_08.png",
@@ -174,19 +132,40 @@
     "rgb": {
       "r": 149,
       "g": 76,
-      "b": 88
+      "b": 89
     },
     "lab": {
-      "L": 41.6,
-      "a": 31.9,
-      "b": 7
+      "L": 41.7,
+      "a": 32,
+      "b": 6.4
     },
     "hsv": {
-      "h": 350.1,
+      "h": 349.3,
       "s": 0.49,
       "v": 0.584
     },
-    "sortKey": 12485.706602553906
+    "sortKey": 11442.60088910827
+  },
+  {
+    "file": "ROM_ZML_MN_22.png",
+    "url": "/textures/lipstick/ROM_ZML_MN_22.png",
+    "label": "Pink",
+    "rgb": {
+      "r": 156,
+      "g": 96,
+      "b": 105
+    },
+    "lab": {
+      "L": 47.6,
+      "a": 25.6,
+      "b": 5.2
+    },
+    "hsv": {
+      "h": 351,
+      "s": 0.385,
+      "v": 0.612
+    },
+    "sortKey": 11640.028766062404
   },
   {
     "file": "ROM_BFT_VOS_15.png",
@@ -231,27 +210,6 @@
     "sortKey": 13451.848100070607
   },
   {
-    "file": "ROM_BFT_06.png",
-    "url": "/textures/lipstick/ROM_BFT_06.png",
-    "label": "Pink",
-    "rgb": {
-      "r": 153,
-      "g": 89,
-      "b": 97
-    },
-    "lab": {
-      "L": 45.3,
-      "a": 27.3,
-      "b": 6.8
-    },
-    "hsv": {
-      "h": 352.5,
-      "s": 0.418,
-      "v": 0.6
-    },
-    "sortKey": 14116.342449490667
-  },
-  {
     "file": "ROM_CLM_06.png",
     "url": "/textures/lipstick/ROM_CLM_06.png",
     "label": "Warm Pink",
@@ -275,44 +233,65 @@
   {
     "file": "ROM_ZVT_04.png",
     "url": "/textures/lipstick/ROM_ZVT_04.png",
-    "label": "Rose",
+    "label": "Pink",
     "rgb": {
-      "r": 128,
+      "r": 129,
       "g": 73,
-      "b": 79
+      "b": 80
     },
     "lab": {
-      "L": 37.7,
-      "a": 24.1,
-      "b": 6.6
+      "L": 37.9,
+      "a": 24.7,
+      "b": 6.3
     },
     "hsv": {
-      "h": 353.5,
-      "s": 0.43,
-      "v": 0.502
+      "h": 352.5,
+      "s": 0.434,
+      "v": 0.506
     },
-    "sortKey": 15413.967987849
+    "sortKey": 14287.73198726546
+  },
+  {
+    "file": "ROM_BFT_06.png",
+    "url": "/textures/lipstick/ROM_BFT_06.png",
+    "label": "Pink",
+    "rgb": {
+      "r": 154,
+      "g": 89,
+      "b": 97
+    },
+    "lab": {
+      "L": 45.5,
+      "a": 27.7,
+      "b": 7.1
+    },
+    "hsv": {
+      "h": 352.6,
+      "s": 0.422,
+      "v": 0.604
+    },
+    "sortKey": 14334.149688345333
   },
   {
     "file": "ROM_LMP_07.png",
     "url": "/textures/lipstick/ROM_LMP_07.png",
-    "label": "Rose",
+    "label": "Pink",
     "rgb": {
       "r": 177,
       "g": 118,
-      "b": 123
+      "b": 124
     },
     "lab": {
       "L": 55.8,
-      "a": 23.9,
-      "b": 6.8
+      "a": 24,
+      "b": 6.2
     },
     "hsv": {
-      "h": 354.9,
+      "h": 353.9,
       "s": 0.333,
       "v": 0.694
     },
-    "sortKey": 15876.531779178411
+    "sortKey": 14575.572114698281
   },
   {
     "file": "ROM_BFT_VOS_13.png",
@@ -334,6 +313,48 @@
       "v": 0.878
     },
     "sortKey": 16590.429338932012
+  },
+  {
+    "file": "ROM_BFT_ZO_07.png",
+    "url": "/textures/lipstick/ROM_BFT_ZO_07.png",
+    "label": "Rose",
+    "rgb": {
+      "r": 145,
+      "g": 73,
+      "b": 81
+    },
+    "lab": {
+      "L": 40.2,
+      "a": 31.1,
+      "b": 9.3
+    },
+    "hsv": {
+      "h": 353.3,
+      "s": 0.497,
+      "v": 0.569
+    },
+    "sortKey": 16647.063728311252
+  },
+  {
+    "file": "ROM_BFT_07.png",
+    "url": "/textures/lipstick/ROM_BFT_07.png",
+    "label": "Rose",
+    "rgb": {
+      "r": 146,
+      "g": 73,
+      "b": 81
+    },
+    "lab": {
+      "L": 40.4,
+      "a": 31.5,
+      "b": 9.5
+    },
+    "hsv": {
+      "h": 353.4,
+      "s": 0.5,
+      "v": 0.573
+    },
+    "sortKey": 16840.985928003396
   },
   {
     "file": "ROM_BFT_BS_18.png",
@@ -399,48 +420,6 @@
     "sortKey": 17652.483237236884
   },
   {
-    "file": "ROM_BFT_07.png",
-    "url": "/textures/lipstick/ROM_BFT_07.png",
-    "label": "Rose",
-    "rgb": {
-      "r": 145,
-      "g": 73,
-      "b": 80
-    },
-    "lab": {
-      "L": 40.2,
-      "a": 31,
-      "b": 9.9
-    },
-    "hsv": {
-      "h": 354.2,
-      "s": 0.497,
-      "v": 0.569
-    },
-    "sortKey": 17694.455818729046
-  },
-  {
-    "file": "ROM_BFT_ZO_07.png",
-    "url": "/textures/lipstick/ROM_BFT_ZO_07.png",
-    "label": "Rose",
-    "rgb": {
-      "r": 145,
-      "g": 73,
-      "b": 80
-    },
-    "lab": {
-      "L": 40.2,
-      "a": 31,
-      "b": 9.9
-    },
-    "hsv": {
-      "h": 354.2,
-      "s": 0.497,
-      "v": 0.569
-    },
-    "sortKey": 17694.455818729046
-  },
-  {
     "file": "ROM_BWT_08.png",
     "url": "/textures/lipstick/ROM_BWT_08.png",
     "label": "Rose",
@@ -483,46 +462,25 @@
     "sortKey": 18600.608881247157
   },
   {
-    "file": "ROM_ZVT_BKD_14.png",
-    "url": "/textures/lipstick/ROM_ZVT_BKD_14.png",
+    "file": "ROM_BFT_08.png",
+    "url": "/textures/lipstick/ROM_BFT_08.png",
     "label": "Rose",
     "rgb": {
-      "r": 142,
-      "g": 59,
-      "b": 67
+      "r": 128,
+      "g": 61,
+      "b": 66
     },
     "lab": {
-      "L": 36.5,
-      "a": 36,
-      "b": 12.9
+      "L": 34.6,
+      "a": 29.4,
+      "b": 10.6
     },
     "hsv": {
-      "h": 354.2,
-      "s": 0.585,
-      "v": 0.557
+      "h": 355.5,
+      "s": 0.523,
+      "v": 0.502
     },
-    "sortKey": 19777.033758551068
-  },
-  {
-    "file": "ROM_ZML_10.png",
-    "url": "/textures/lipstick/ROM_ZML_10.png",
-    "label": "Coral",
-    "rgb": {
-      "r": 185,
-      "g": 107,
-      "b": 111
-    },
-    "lab": {
-      "L": 54,
-      "a": 31.5,
-      "b": 11.3
-    },
-    "hsv": {
-      "h": 356.9,
-      "s": 0.422,
-      "v": 0.725
-    },
-    "sortKey": 19853.35212248895
+    "sortKey": 19834.89668924648
   },
   {
     "file": "ROM_ZVT_FIN_21.png",
@@ -546,25 +504,25 @@
     "sortKey": 19895.60534396679
   },
   {
-    "file": "ROM_BFT_08.png",
-    "url": "/textures/lipstick/ROM_BFT_08.png",
-    "label": "Rose",
+    "file": "ROM_ZML_10.png",
+    "url": "/textures/lipstick/ROM_ZML_10.png",
+    "label": "Coral",
     "rgb": {
-      "r": 127,
-      "g": 60,
-      "b": 65
+      "r": 186,
+      "g": 107,
+      "b": 111
     },
     "lab": {
-      "L": 34.2,
-      "a": 29.5,
-      "b": 10.6
+      "L": 54.1,
+      "a": 31.9,
+      "b": 11.5
     },
     "hsv": {
-      "h": 355.5,
-      "s": 0.528,
-      "v": 0.498
+      "h": 357,
+      "s": 0.425,
+      "v": 0.729
     },
-    "sortKey": 19915.399680944323
+    "sortKey": 19959.62098006163
   },
   {
     "file": "ROM_BFT_EB_11.png",
@@ -588,6 +546,48 @@
     "sortKey": 20107.09176468471
   },
   {
+    "file": "ROM_ZVT_BKD_14.png",
+    "url": "/textures/lipstick/ROM_ZVT_BKD_14.png",
+    "label": "Brick",
+    "rgb": {
+      "r": 142,
+      "g": 60,
+      "b": 67
+    },
+    "lab": {
+      "L": 36.7,
+      "a": 35.5,
+      "b": 13.2
+    },
+    "hsv": {
+      "h": 354.9,
+      "s": 0.577,
+      "v": 0.557
+    },
+    "sortKey": 20417.285623054675
+  },
+  {
+    "file": "ROM_BLC_MI_04.png",
+    "url": "/textures/lipstick/ROM_BLC_MI_04.png",
+    "label": "Peach",
+    "rgb": {
+      "r": 215,
+      "g": 140,
+      "b": 142
+    },
+    "lab": {
+      "L": 65.9,
+      "a": 28.8,
+      "b": 10.8
+    },
+    "hsv": {
+      "h": 358.4,
+      "s": 0.349,
+      "v": 0.843
+    },
+    "sortKey": 20583.293838984828
+  },
+  {
     "file": "ROM_ZVT_WIN_29.png",
     "url": "/textures/lipstick/ROM_ZVT_WIN_29.png",
     "label": "Mauve",
@@ -609,67 +609,25 @@
     "sortKey": 21034.311781491775
   },
   {
-    "file": "ROM_CLM_02.png",
-    "url": "/textures/lipstick/ROM_CLM_02.png",
-    "label": "Mauve",
-    "rgb": {
-      "r": 178,
-      "g": 91,
-      "b": 95
-    },
-    "lab": {
-      "L": 49.2,
-      "a": 35.6,
-      "b": 14
-    },
-    "hsv": {
-      "h": 357.2,
-      "s": 0.489,
-      "v": 0.698
-    },
-    "sortKey": 21508.747143109547
-  },
-  {
-    "file": "ROM_BLC_MI_04.png",
-    "url": "/textures/lipstick/ROM_BLC_MI_04.png",
-    "label": "Peach",
-    "rgb": {
-      "r": 215,
-      "g": 140,
-      "b": 141
-    },
-    "lab": {
-      "L": 65.8,
-      "a": 28.7,
-      "b": 11.3
-    },
-    "hsv": {
-      "h": 359.2,
-      "s": 0.349,
-      "v": 0.843
-    },
-    "sortKey": 21586.718400302332
-  },
-  {
     "file": "ROM_ZVT_BKD_16.png",
     "url": "/textures/lipstick/ROM_ZVT_BKD_16.png",
     "label": "Mauve",
     "rgb": {
       "r": 152,
-      "g": 84,
-      "b": 86
+      "g": 85,
+      "b": 87
     },
     "lab": {
-      "L": 43.8,
-      "a": 28.4,
-      "b": 11.3
+      "L": 44,
+      "a": 27.9,
+      "b": 11.1
     },
     "hsv": {
       "h": 358.2,
-      "s": 0.447,
+      "s": 0.441,
       "v": 0.596
     },
-    "sortKey": 21828.366721350558
+    "sortKey": 21679.467970312468
   },
   {
     "file": "ROM_ZML_20.png",
@@ -677,20 +635,41 @@
     "label": "Brick",
     "rgb": {
       "r": 131,
-      "g": 36,
-      "b": 47
+      "g": 37,
+      "b": 48
     },
     "lab": {
-      "L": 30.1,
-      "a": 41.1,
-      "b": 16.9
+      "L": 30.3,
+      "a": 40.7,
+      "b": 16.4
     },
     "hsv": {
-      "h": 353.1,
-      "s": 0.725,
+      "h": 353,
+      "s": 0.718,
       "v": 0.514
     },
-    "sortKey": 22408.681206616133
+    "sortKey": 22054.73875425877
+  },
+  {
+    "file": "ROM_CLM_02.png",
+    "url": "/textures/lipstick/ROM_CLM_02.png",
+    "label": "Mauve",
+    "rgb": {
+      "r": 178,
+      "g": 92,
+      "b": 95
+    },
+    "lab": {
+      "L": 49.4,
+      "a": 35.1,
+      "b": 14.3
+    },
+    "hsv": {
+      "h": 357.9,
+      "s": 0.483,
+      "v": 0.698
+    },
+    "sortKey": 22208.08783303303
   },
   {
     "file": "ROM_BWT_05.png",
@@ -718,21 +697,21 @@
     "url": "/textures/lipstick/ROM_LMP_02.png",
     "label": "Peach",
     "rgb": {
-      "r": 225,
+      "r": 224,
       "g": 142,
       "b": 142
     },
     "lab": {
-      "L": 67.5,
-      "a": 31.5,
-      "b": 13.3
+      "L": 67.4,
+      "a": 31.1,
+      "b": 13.1
     },
     "hsv": {
       "h": 0,
-      "s": 0.369,
-      "v": 0.882
+      "s": 0.366,
+      "v": 0.878
     },
-    "sortKey": 22884.969420479356
+    "sortKey": 22842.18302844406
   },
   {
     "file": "ROM_LMP_04.png",
@@ -781,63 +760,21 @@
     "url": "/textures/lipstick/ROM_CLM_08.png",
     "label": "Coral",
     "rgb": {
-      "r": 200,
+      "r": 201,
       "g": 123,
       "b": 122
     },
     "lab": {
-      "L": 59.8,
-      "a": 29.9,
-      "b": 13.3
+      "L": 59.9,
+      "a": 30.2,
+      "b": 13.5
     },
     "hsv": {
       "h": 0.8,
-      "s": 0.39,
-      "v": 0.784
+      "s": 0.393,
+      "v": 0.788
     },
-    "sortKey": 24048.167248911443
-  },
-  {
-    "file": "ROM_ZVT_VF_24.png",
-    "url": "/textures/lipstick/ROM_ZVT_VF_24.png",
-    "label": "Brick",
-    "rgb": {
-      "r": 122,
-      "g": 64,
-      "b": 64
-    },
-    "lab": {
-      "L": 34.3,
-      "a": 25.1,
-      "b": 11.3
-    },
-    "hsv": {
-      "h": 0,
-      "s": 0.475,
-      "v": 0.478
-    },
-    "sortKey": 24312.996948647648
-  },
-  {
-    "file": "ROM_ZVT_BKD_13.png",
-    "url": "/textures/lipstick/ROM_ZVT_BKD_13.png",
-    "label": "Mauve",
-    "rgb": {
-      "r": 183,
-      "g": 73,
-      "b": 77
-    },
-    "lab": {
-      "L": 46.1,
-      "a": 44.9,
-      "b": 20.8
-    },
-    "hsv": {
-      "h": 357.8,
-      "s": 0.601,
-      "v": 0.718
-    },
-    "sortKey": 24898.14661172694
+    "sortKey": 24083.508056332466
   },
   {
     "file": "ROM_ZVT_VF_23.png",
@@ -846,19 +783,124 @@
     "rgb": {
       "r": 115,
       "g": 72,
-      "b": 70
+      "b": 71
     },
     "lab": {
-      "L": 35.4,
-      "a": 18.1,
-      "b": 8.9
+      "L": 35.5,
+      "a": 18.3,
+      "b": 8.3
     },
     "hsv": {
-      "h": 2.7,
-      "s": 0.391,
+      "h": 1.4,
+      "s": 0.383,
       "v": 0.451
     },
-    "sortKey": 26123.77696312653
+    "sortKey": 24423.916238471855
+  },
+  {
+    "file": "ROM_ZVT_BKD_13.png",
+    "url": "/textures/lipstick/ROM_ZVT_BKD_13.png",
+    "label": "Mauve",
+    "rgb": {
+      "r": 184,
+      "g": 74,
+      "b": 78
+    },
+    "lab": {
+      "L": 46.5,
+      "a": 44.8,
+      "b": 20.7
+    },
+    "hsv": {
+      "h": 357.8,
+      "s": 0.598,
+      "v": 0.722
+    },
+    "sortKey": 24815.941299274105
+  },
+  {
+    "file": "ROM_ZVT_VF_24.png",
+    "url": "/textures/lipstick/ROM_ZVT_VF_24.png",
+    "label": "Brick",
+    "rgb": {
+      "r": 122,
+      "g": 65,
+      "b": 64
+    },
+    "lab": {
+      "L": 34.6,
+      "a": 24.5,
+      "b": 11.6
+    },
+    "hsv": {
+      "h": 1,
+      "s": 0.475,
+      "v": 0.478
+    },
+    "sortKey": 25430.212648330085
+  },
+  {
+    "file": "ROM_ZVT_FIN_20.png",
+    "url": "/textures/lipstick/ROM_ZVT_FIN_20.png",
+    "label": "Brick",
+    "rgb": {
+      "r": 108,
+      "g": 57,
+      "b": 56
+    },
+    "lab": {
+      "L": 30.4,
+      "a": 22.4,
+      "b": 10.7
+    },
+    "hsv": {
+      "h": 1.2,
+      "s": 0.481,
+      "v": 0.424
+    },
+    "sortKey": 25561.217370631806
+  },
+  {
+    "file": "ROM_ZML_07.png",
+    "url": "/textures/lipstick/ROM_ZML_07.png",
+    "label": "Coral",
+    "rgb": {
+      "r": 191,
+      "g": 103,
+      "b": 101
+    },
+    "lab": {
+      "L": 53.7,
+      "a": 34.8,
+      "b": 16.9
+    },
+    "hsv": {
+      "h": 1.3,
+      "s": 0.471,
+      "v": 0.749
+    },
+    "sortKey": 25973.199616116573
+  },
+  {
+    "file": "ROM_ZML_13.png",
+    "url": "/textures/lipstick/ROM_ZML_13.png",
+    "label": "Brick",
+    "rgb": {
+      "r": 146,
+      "g": 41,
+      "b": 48
+    },
+    "lab": {
+      "L": 33.8,
+      "a": 44.2,
+      "b": 21.5
+    },
+    "hsv": {
+      "h": 356,
+      "s": 0.719,
+      "v": 0.573
+    },
+    "sortKey": 26015.9393902813
   },
   {
     "file": "ROM_ZML_17.png",
@@ -882,88 +924,25 @@
     "sortKey": 26147.0620930197
   },
   {
-    "file": "ROM_ZML_13.png",
-    "url": "/textures/lipstick/ROM_ZML_13.png",
-    "label": "Brick",
-    "rgb": {
-      "r": 146,
-      "g": 40,
-      "b": 47
-    },
-    "lab": {
-      "L": 33.6,
-      "a": 44.5,
-      "b": 21.9
-    },
-    "hsv": {
-      "h": 356,
-      "s": 0.726,
-      "v": 0.573
-    },
-    "sortKey": 26295.96078040135
-  },
-  {
     "file": "ROM_ZVT_FIN_19.png",
     "url": "/textures/lipstick/ROM_ZVT_FIN_19.png",
     "label": "Brick",
     "rgb": {
       "r": 126,
-      "g": 68,
-      "b": 66
+      "g": 69,
+      "b": 67
     },
     "lab": {
-      "L": 35.9,
-      "a": 24.6,
-      "b": 12.3
+      "L": 36.2,
+      "a": 24.2,
+      "b": 12
     },
     "hsv": {
       "h": 2,
-      "s": 0.476,
+      "s": 0.468,
       "v": 0.494
     },
-    "sortKey": 26543.247423999263
-  },
-  {
-    "file": "ROM_ZML_07.png",
-    "url": "/textures/lipstick/ROM_ZML_07.png",
-    "label": "Coral",
-    "rgb": {
-      "r": 190,
-      "g": 103,
-      "b": 100
-    },
-    "lab": {
-      "L": 53.6,
-      "a": 34.4,
-      "b": 17.3
-    },
-    "hsv": {
-      "h": 2,
-      "s": 0.474,
-      "v": 0.745
-    },
-    "sortKey": 26749.8427143219
-  },
-  {
-    "file": "ROM_ZVT_FIN_20.png",
-    "url": "/textures/lipstick/ROM_ZVT_FIN_20.png",
-    "label": "Brick",
-    "rgb": {
-      "r": 107,
-      "g": 57,
-      "b": 55
-    },
-    "lab": {
-      "L": 30.2,
-      "a": 21.8,
-      "b": 11.1
-    },
-    "hsv": {
-      "h": 2.3,
-      "s": 0.486,
-      "v": 0.42
-    },
-    "sortKey": 26918.76705886342
+    "sortKey": 26458.379386831202
   },
   {
     "file": "02.png",
@@ -987,8 +966,8 @@
     "sortKey": 27428.41657336586
   },
   {
-    "file": "ROM_BFT_ZO_02.png",
-    "url": "/textures/lipstick/ROM_BFT_ZO_02.png",
+    "file": "ROM_BFT_02.png",
+    "url": "/textures/lipstick/ROM_BFT_02.png",
     "label": "Mauve",
     "rgb": {
       "r": 160,
@@ -1008,25 +987,25 @@
     "sortKey": 27456.465720828088
   },
   {
-    "file": "ROM_BFT_02.png",
-    "url": "/textures/lipstick/ROM_BFT_02.png",
+    "file": "ROM_BFT_ZO_02.png",
+    "url": "/textures/lipstick/ROM_BFT_ZO_02.png",
     "label": "Mauve",
     "rgb": {
-      "r": 159,
-      "g": 81,
-      "b": 78
+      "r": 160,
+      "g": 82,
+      "b": 79
     },
     "lab": {
-      "L": 44,
+      "L": 44.3,
       "a": 31.9,
-      "b": 16.6
+      "b": 16.5
     },
     "hsv": {
       "h": 2.2,
-      "s": 0.509,
-      "v": 0.624
+      "s": 0.506,
+      "v": 0.627
     },
-    "sortKey": 27508.361810952163
+    "sortKey": 27456.465720828088
   },
   {
     "file": "ROM_MTVT_09.png",
@@ -1055,41 +1034,20 @@
     "label": "Coral",
     "rgb": {
       "r": 214,
-      "g": 85,
+      "g": 86,
       "b": 85
     },
     "lab": {
-      "L": 53.4,
-      "a": 50.8,
-      "b": 26.5
+      "L": 53.6,
+      "a": 50.3,
+      "b": 26.7
     },
     "hsv": {
-      "h": 0,
+      "h": 0.5,
       "s": 0.603,
       "v": 0.839
     },
-    "sortKey": 27636.2491292005
-  },
-  {
-    "file": "ROM_ZVT_07.png",
-    "url": "/textures/lipstick/ROM_ZVT_07.png",
-    "label": "Brick",
-    "rgb": {
-      "r": 153,
-      "g": 37,
-      "b": 44
-    },
-    "lab": {
-      "L": 34.6,
-      "a": 47.7,
-      "b": 25.3
-    },
-    "hsv": {
-      "h": 356.4,
-      "s": 0.758,
-      "v": 0.6
-    },
-    "sortKey": 27945.823387646906
+    "sortKey": 28042.656366819723
   },
   {
     "file": "real.png",
@@ -1111,6 +1069,48 @@
       "v": 0.757
     },
     "sortKey": 28053.72832302095
+  },
+  {
+    "file": "ROM_ZVT_07.png",
+    "url": "/textures/lipstick/ROM_ZVT_07.png",
+    "label": "Brick",
+    "rgb": {
+      "r": 153,
+      "g": 38,
+      "b": 44
+    },
+    "lab": {
+      "L": 34.7,
+      "a": 47.4,
+      "b": 25.4
+    },
+    "hsv": {
+      "h": 356.9,
+      "s": 0.752,
+      "v": 0.6
+    },
+    "sortKey": 28268.174977624374
+  },
+  {
+    "file": "ROM_BWT_01.png",
+    "url": "/textures/lipstick/ROM_BWT_01.png",
+    "label": "Peach",
+    "rgb": {
+      "r": 217,
+      "g": 127,
+      "b": 121
+    },
+    "lab": {
+      "L": 62.8,
+      "a": 34.1,
+      "b": 18.4
+    },
+    "hsv": {
+      "h": 3.8,
+      "s": 0.442,
+      "v": 0.851
+    },
+    "sortKey": 28358.228333756597
   },
   {
     "file": "ROM_BFT_EB_10.png",
@@ -1155,67 +1155,46 @@
     "sortKey": 28677.576467188177
   },
   {
-    "file": "ROM_BWT_01.png",
-    "url": "/textures/lipstick/ROM_BWT_01.png",
-    "label": "Peach",
+    "file": "ROM_ZML_08.png",
+    "url": "/textures/lipstick/ROM_ZML_08.png",
+    "label": "Coral",
     "rgb": {
-      "r": 217,
-      "g": 127,
-      "b": 120
+      "r": 201,
+      "g": 94,
+      "b": 87
     },
     "lab": {
-      "L": 62.7,
-      "a": 34,
-      "b": 18.9
+      "L": 53.1,
+      "a": 42,
+      "b": 24.5
     },
     "hsv": {
-      "h": 4.3,
-      "s": 0.447,
-      "v": 0.851
+      "h": 3.7,
+      "s": 0.567,
+      "v": 0.788
     },
-    "sortKey": 29128.442063024857
+    "sortKey": 30299.221406857356
   },
   {
     "file": "ROM_ZVT_BKD_12.png",
     "url": "/textures/lipstick/ROM_ZVT_BKD_12.png",
     "label": "Mauve",
     "rgb": {
-      "r": 171,
-      "g": 53,
+      "r": 172,
+      "g": 54,
       "b": 53
     },
     "lab": {
-      "L": 40.3,
-      "a": 48,
-      "b": 27.5
+      "L": 40.7,
+      "a": 47.9,
+      "b": 28
     },
     "hsv": {
-      "h": 0,
-      "s": 0.69,
-      "v": 0.671
+      "h": 0.5,
+      "s": 0.692,
+      "v": 0.675
     },
-    "sortKey": 29895.087631400085
-  },
-  {
-    "file": "ROM_ZML_08.png",
-    "url": "/textures/lipstick/ROM_ZML_08.png",
-    "label": "Coral",
-    "rgb": {
-      "r": 201,
-      "g": 93,
-      "b": 86
-    },
-    "lab": {
-      "L": 52.9,
-      "a": 42.4,
-      "b": 24.8
-    },
-    "hsv": {
-      "h": 3.7,
-      "s": 0.572,
-      "v": 0.788
-    },
-    "sortKey": 30361.7527622759
+    "sortKey": 30332.21058719041
   },
   {
     "file": "ROM_MTVT_07.png",
@@ -1239,27 +1218,6 @@
     "sortKey": 30833.3769552933
   },
   {
-    "file": "ROM_BFT_04.png",
-    "url": "/textures/lipstick/ROM_BFT_04.png",
-    "label": "Brick",
-    "rgb": {
-      "r": 105,
-      "g": 59,
-      "b": 54
-    },
-    "lab": {
-      "L": 30.4,
-      "a": 19.7,
-      "b": 11.9
-    },
-    "hsv": {
-      "h": 5.9,
-      "s": 0.486,
-      "v": 0.412
-    },
-    "sortKey": 31220.463387883698
-  },
-  {
     "file": "04.png",
     "url": "/textures/lipstick/04.png",
     "label": "Brick",
@@ -1281,29 +1239,50 @@
     "sortKey": 31267.145956235083
   },
   {
-    "file": "03.png",
-    "url": "/textures/lipstick/03.png",
+    "file": "ROM_BFT_04.png",
+    "url": "/textures/lipstick/ROM_BFT_04.png",
     "label": "Brick",
     "rgb": {
-      "r": 124,
+      "r": 105,
       "g": 60,
-      "b": 54
+      "b": 55
     },
     "lab": {
-      "L": 33.5,
-      "a": 27.1,
-      "b": 16.6
+      "L": 30.7,
+      "a": 19.2,
+      "b": 11.6
     },
     "hsv": {
-      "h": 5.1,
-      "s": 0.565,
-      "v": 0.486
+      "h": 6,
+      "s": 0.476,
+      "v": 0.412
     },
-    "sortKey": 31486.015232276593
+    "sortKey": 31267.145956235083
   },
   {
-    "file": "ROM_BFT_03.png",
-    "url": "/textures/lipstick/ROM_BFT_03.png",
+    "file": "ROM_BFT_BS_17.png",
+    "url": "/textures/lipstick/ROM_BFT_BS_17.png",
+    "label": "Coral",
+    "rgb": {
+      "r": 186,
+      "g": 119,
+      "b": 111
+    },
+    "lab": {
+      "L": 56.9,
+      "a": 25.3,
+      "b": 15.3
+    },
+    "hsv": {
+      "h": 6.4,
+      "s": 0.403,
+      "v": 0.729
+    },
+    "sortKey": 31272.024693200197
+  },
+  {
+    "file": "03.png",
+    "url": "/textures/lipstick/03.png",
     "label": "Brick",
     "rgb": {
       "r": 124,
@@ -1344,67 +1323,109 @@
     "sortKey": 31696.56733441824
   },
   {
-    "file": "ROM_ZVT_06.png",
-    "url": "/textures/lipstick/ROM_ZVT_06.png",
-    "label": "Brown",
-    "rgb": {
-      "r": 114,
-      "g": 51,
-      "b": 45
-    },
-    "lab": {
-      "L": 29.7,
-      "a": 27.2,
-      "b": 17.1
-    },
-    "hsv": {
-      "h": 5.2,
-      "s": 0.605,
-      "v": 0.447
-    },
-    "sortKey": 32138.3881518687
-  },
-  {
-    "file": "ROM_BFT_BS_17.png",
-    "url": "/textures/lipstick/ROM_BFT_BS_17.png",
-    "label": "Coral",
-    "rgb": {
-      "r": 186,
-      "g": 119,
-      "b": 110
-    },
-    "lab": {
-      "L": 56.8,
-      "a": 25.2,
-      "b": 15.9
-    },
-    "hsv": {
-      "h": 7.1,
-      "s": 0.409,
-      "v": 0.729
-    },
-    "sortKey": 32287.68971684856
-  },
-  {
     "file": "ROM_ZVT_02.png",
     "url": "/textures/lipstick/ROM_ZVT_02.png",
     "label": "Mauve",
     "rgb": {
       "r": 162,
       "g": 74,
-      "b": 65
+      "b": 66
     },
     "lab": {
       "L": 42.7,
-      "a": 35.7,
-      "b": 22.9
+      "a": 35.8,
+      "b": 22.3
     },
     "hsv": {
-      "h": 5.6,
-      "s": 0.599,
+      "h": 5,
+      "s": 0.593,
       "v": 0.635
     },
-    "sortKey": 32730.248525139552
+    "sortKey": 32010.516166777452
+  },
+  {
+    "file": "ROM_ZVT_06.png",
+    "url": "/textures/lipstick/ROM_ZVT_06.png",
+    "label": "Brown",
+    "rgb": {
+      "r": 114,
+      "g": 52,
+      "b": 46
+    },
+    "lab": {
+      "L": 30,
+      "a": 26.8,
+      "b": 16.7
+    },
+    "hsv": {
+      "h": 5.3,
+      "s": 0.596,
+      "v": 0.447
+    },
+    "sortKey": 32080.1942795448
+  },
+  {
+    "file": "ROM_BFT_03.png",
+    "url": "/textures/lipstick/ROM_BFT_03.png",
+    "label": "Brick",
+    "rgb": {
+      "r": 125,
+      "g": 61,
+      "b": 54
+    },
+    "lab": {
+      "L": 33.9,
+      "a": 27,
+      "b": 17.1
+    },
+    "hsv": {
+      "h": 5.9,
+      "s": 0.568,
+      "v": 0.49
+    },
+    "sortKey": 32434.0189827769
+  },
+  {
+    "file": "ROM_CLM_01.png",
+    "url": "/textures/lipstick/ROM_CLM_01.png",
+    "label": "Mauve",
+    "rgb": {
+      "r": 183,
+      "g": 100,
+      "b": 90
+    },
+    "lab": {
+      "L": 51.7,
+      "a": 32.3,
+      "b": 20.5
+    },
+    "hsv": {
+      "h": 6.5,
+      "s": 0.508,
+      "v": 0.718
+    },
+    "sortKey": 32486.571178929218
+  },
+  {
+    "file": "ROM_ZVT_WIN_26.png",
+    "url": "/textures/lipstick/ROM_ZVT_WIN_26.png",
+    "label": "Mauve",
+    "rgb": {
+      "r": 173,
+      "g": 61,
+      "b": 54
+    },
+    "lab": {
+      "L": 42,
+      "a": 45.3,
+      "b": 29
+    },
+    "hsv": {
+      "h": 3.5,
+      "s": 0.688,
+      "v": 0.678
+    },
+    "sortKey": 32654.664604286016
   },
   {
     "file": "ROM_ZVT_BKD_17.png",
@@ -1412,20 +1433,20 @@
     "label": "Mauve",
     "rgb": {
       "r": 153,
-      "g": 80,
-      "b": 71
+      "g": 81,
+      "b": 72
     },
     "lab": {
-      "L": 42.7,
-      "a": 29.4,
-      "b": 19
+      "L": 43,
+      "a": 29,
+      "b": 18.7
     },
     "hsv": {
-      "h": 6.6,
-      "s": 0.536,
+      "h": 6.7,
+      "s": 0.529,
       "v": 0.6
     },
-    "sortKey": 32923.24857561019
+    "sortKey": 32938.38257430037
   },
   {
     "file": "ROM_MTVT_06.png",
@@ -1447,48 +1468,6 @@
       "v": 0.369
     },
     "sortKey": 33120.92387906577
-  },
-  {
-    "file": "ROM_ZVT_WIN_26.png",
-    "url": "/textures/lipstick/ROM_ZVT_WIN_26.png",
-    "label": "Mauve",
-    "rgb": {
-      "r": 173,
-      "g": 61,
-      "b": 53
-    },
-    "lab": {
-      "L": 42,
-      "a": 45.3,
-      "b": 29.6
-    },
-    "hsv": {
-      "h": 4,
-      "s": 0.694,
-      "v": 0.678
-    },
-    "sortKey": 33199.72491892671
-  },
-  {
-    "file": "ROM_CLM_01.png",
-    "url": "/textures/lipstick/ROM_CLM_01.png",
-    "label": "Mauve",
-    "rgb": {
-      "r": 183,
-      "g": 101,
-      "b": 90
-    },
-    "lab": {
-      "L": 52,
-      "a": 31.7,
-      "b": 20.8
-    },
-    "hsv": {
-      "h": 7.1,
-      "s": 0.508,
-      "v": 0.718
-    },
-    "sortKey": 33293.31708232612
   },
   {
     "file": "ROM_BLC_MI_03.png",
@@ -1533,6 +1512,48 @@
     "sortKey": 33804.10885357214
   },
   {
+    "file": "ROM_ZML_02.png",
+    "url": "/textures/lipstick/ROM_ZML_02.png",
+    "label": "Mauve",
+    "rgb": {
+      "r": 156,
+      "g": 62,
+      "b": 52
+    },
+    "lab": {
+      "L": 39.2,
+      "a": 38.6,
+      "b": 26.1
+    },
+    "hsv": {
+      "h": 5.8,
+      "s": 0.667,
+      "v": 0.612
+    },
+    "sortKey": 34140.64268944506
+  },
+  {
+    "file": "ROM_BFT_01.png",
+    "url": "/textures/lipstick/ROM_BFT_01.png",
+    "label": "Mauve",
+    "rgb": {
+      "r": 173,
+      "g": 94,
+      "b": 82
+    },
+    "lab": {
+      "L": 48.9,
+      "a": 30.8,
+      "b": 21.2
+    },
+    "hsv": {
+      "h": 7.9,
+      "s": 0.526,
+      "v": 0.678
+    },
+    "sortKey": 34510.254400832106
+  },
+  {
     "file": "01.png",
     "url": "/textures/lipstick/01.png",
     "label": "Mauve",
@@ -1575,25 +1596,25 @@
     "sortKey": 34753.315715800076
   },
   {
-    "file": "ROM_ZML_02.png",
-    "url": "/textures/lipstick/ROM_ZML_02.png",
-    "label": "Mauve",
+    "file": "ROM_ZVT_VF_22.png",
+    "url": "/textures/lipstick/ROM_ZVT_VF_22.png",
+    "label": "Brown",
     "rgb": {
-      "r": 155,
-      "g": 62,
-      "b": 51
+      "r": 143,
+      "g": 93,
+      "b": 84
     },
     "lab": {
-      "L": 39,
-      "a": 38.1,
-      "b": 26.4
+      "L": 44.7,
+      "a": 19.3,
+      "b": 13.6
     },
     "hsv": {
-      "h": 6.3,
-      "s": 0.671,
-      "v": 0.608
+      "h": 9.2,
+      "s": 0.413,
+      "v": 0.561
     },
-    "sortKey": 34788.21593320009
+    "sortKey": 35179.29121529527
   },
   {
     "file": "ROM_ZVT_03.png",
@@ -1601,104 +1622,62 @@
     "label": "Deep Brown",
     "rgb": {
       "r": 126,
-      "g": 28,
+      "g": 29,
       "b": 23
     },
     "lab": {
-      "L": 27.6,
-      "a": 41.2,
-      "b": 28.9
+      "L": 27.8,
+      "a": 40.8,
+      "b": 29
     },
     "hsv": {
-      "h": 2.9,
+      "h": 3.5,
       "s": 0.817,
       "v": 0.494
     },
-    "sortKey": 35116.87006482089
-  },
-  {
-    "file": "ROM_ZVT_VF_22.png",
-    "url": "/textures/lipstick/ROM_ZVT_VF_22.png",
-    "label": "Brown",
-    "rgb": {
-      "r": 142,
-      "g": 92,
-      "b": 83
-    },
-    "lab": {
-      "L": 44.3,
-      "a": 19.4,
-      "b": 13.6
-    },
-    "hsv": {
-      "h": 9.2,
-      "s": 0.415,
-      "v": 0.557
-    },
-    "sortKey": 35196.12582195254
-  },
-  {
-    "file": "ROM_BFT_01.png",
-    "url": "/textures/lipstick/ROM_BFT_01.png",
-    "label": "Brown",
-    "rgb": {
-      "r": 173,
-      "g": 94,
-      "b": 81
-    },
-    "lab": {
-      "L": 48.9,
-      "a": 30.7,
-      "b": 21.7
-    },
-    "hsv": {
-      "h": 8.5,
-      "s": 0.532,
-      "v": 0.678
-    },
-    "sortKey": 35297.00939426159
-  },
-  {
-    "file": "ROM_ZML_MN_21.png",
-    "url": "/textures/lipstick/ROM_ZML_MN_21.png",
-    "label": "Brown",
-    "rgb": {
-      "r": 168,
-      "g": 108,
-      "b": 96
-    },
-    "lab": {
-      "L": 51.7,
-      "a": 22.5,
-      "b": 16.6
-    },
-    "hsv": {
-      "h": 10,
-      "s": 0.429,
-      "v": 0.659
-    },
-    "sortKey": 36545.65732878082
+    "sortKey": 35482.73666615589
   },
   {
     "file": "ROM_ZML_09.png",
     "url": "/textures/lipstick/ROM_ZML_09.png",
     "label": "Peach",
     "rgb": {
-      "r": 211,
+      "r": 212,
       "g": 132,
-      "b": 116
+      "b": 117
     },
     "lab": {
-      "L": 63,
-      "a": 28.6,
+      "L": 63.2,
+      "a": 29.1,
+      "b": 21.1
+    },
+    "hsv": {
+      "h": 9.5,
+      "s": 0.448,
+      "v": 0.831
+    },
+    "sortKey": 35946.759935604525
+  },
+  {
+    "file": "ROM_ZVT_BKD_15.png",
+    "url": "/textures/lipstick/ROM_ZVT_BKD_15.png",
+    "label": "Brown",
+    "rgb": {
+      "r": 140,
+      "g": 70,
+      "b": 57
+    },
+    "lab": {
+      "L": 38.3,
+      "a": 28.4,
       "b": 21.4
     },
     "hsv": {
-      "h": 10.1,
-      "s": 0.45,
-      "v": 0.827
+      "h": 9.4,
+      "s": 0.593,
+      "v": 0.549
     },
-    "sortKey": 36863.77078176484
+    "sortKey": 37016.792785407735
   },
   {
     "file": "ROM_ZVT_WIN_28.png",
@@ -1722,25 +1701,25 @@
     "sortKey": 37468.65665193699
   },
   {
-    "file": "ROM_ZVT_BKD_15.png",
-    "url": "/textures/lipstick/ROM_ZVT_BKD_15.png",
+    "file": "ROM_ZML_MN_21.png",
+    "url": "/textures/lipstick/ROM_ZML_MN_21.png",
     "label": "Brown",
     "rgb": {
-      "r": 139,
-      "g": 70,
-      "b": 56
+      "r": 168,
+      "g": 109,
+      "b": 96
     },
     "lab": {
-      "L": 38.1,
-      "a": 27.9,
-      "b": 21.7
+      "L": 52,
+      "a": 21.9,
+      "b": 17
     },
     "hsv": {
-      "h": 10.1,
-      "s": 0.597,
-      "v": 0.545
+      "h": 10.8,
+      "s": 0.429,
+      "v": 0.659
     },
-    "sortKey": 37963.95339017499
+    "sortKey": 37783.25179497699
   },
   {
     "file": "ROM_MTVT_05.png",
@@ -1749,19 +1728,19 @@
     "rgb": {
       "r": 103,
       "g": 39,
-      "b": 26
+      "b": 27
     },
     "lab": {
       "L": 25,
       "a": 27.9,
-      "b": 22.9
+      "b": 22.3
     },
     "hsv": {
-      "h": 10.1,
-      "s": 0.748,
+      "h": 9.5,
+      "s": 0.738,
       "v": 0.404
     },
-    "sortKey": 39426.2743634782
+    "sortKey": 38610.734062708005
   },
   {
     "file": "ROM_CLM_03.png",
@@ -1785,27 +1764,6 @@
     "sortKey": 40750.049923260995
   },
   {
-    "file": "ROM_BFT_VOS_12.png",
-    "url": "/textures/lipstick/ROM_BFT_VOS_12.png",
-    "label": "Peach",
-    "rgb": {
-      "r": 214,
-      "g": 143,
-      "b": 123
-    },
-    "lab": {
-      "L": 66,
-      "a": 24.6,
-      "b": 21.6
-    },
-    "hsv": {
-      "h": 13.2,
-      "s": 0.425,
-      "v": 0.839
-    },
-    "sortKey": 41402.19476354984
-  },
-  {
     "file": "ROM_BLC_MI_01.png",
     "url": "/textures/lipstick/ROM_BLC_MI_01.png",
     "label": "Peach",
@@ -1825,6 +1783,27 @@
       "v": 0.835
     },
     "sortKey": 41571.91179075578
+  },
+  {
+    "file": "ROM_BFT_VOS_12.png",
+    "url": "/textures/lipstick/ROM_BFT_VOS_12.png",
+    "label": "Peach",
+    "rgb": {
+      "r": 214,
+      "g": 144,
+      "b": 123
+    },
+    "lab": {
+      "L": 66.3,
+      "a": 24,
+      "b": 22
+    },
+    "hsv": {
+      "h": 13.8,
+      "s": 0.425,
+      "v": 0.839
+    },
+    "sortKey": 42446.76641152267
   },
   {
     "file": "ROM_BWT_03.png",
@@ -1896,61 +1875,61 @@
     "rgb": {
       "r": 226,
       "g": 155,
-      "b": 130
+      "b": 131
     },
     "lab": {
-      "L": 70.3,
-      "a": 23.6,
-      "b": 23.8
+      "L": 70.4,
+      "a": 23.7,
+      "b": 23.3
     },
     "hsv": {
-      "h": 15.6,
-      "s": 0.425,
+      "h": 15.2,
+      "s": 0.42,
       "v": 0.886
     },
-    "sortKey": 45324.83312497484
+    "sortKey": 44560.2308982415
   },
   {
     "file": "ROM_LMP_03.png",
     "url": "/textures/lipstick/ROM_LMP_03.png",
     "label": "Peach",
     "rgb": {
-      "r": 206,
-      "g": 144,
-      "b": 121
+      "r": 207,
+      "g": 145,
+      "b": 122
     },
     "lab": {
-      "L": 65.3,
-      "a": 20.7,
+      "L": 65.7,
+      "a": 20.6,
       "b": 21.6
     },
     "hsv": {
       "h": 16.2,
-      "s": 0.413,
-      "v": 0.808
+      "s": 0.411,
+      "v": 0.812
     },
-    "sortKey": 46358.62945090404
+    "sortKey": 46361.117156962704
   },
   {
     "file": "ROM_BLC_MI_02.png",
     "url": "/textures/lipstick/ROM_BLC_MI_02.png",
     "label": "Brown",
     "rgb": {
-      "r": 169,
+      "r": 168,
       "g": 112,
-      "b": 88
+      "b": 87
     },
     "lab": {
-      "L": 52.7,
-      "a": 19.8,
-      "b": 22.5
+      "L": 52.5,
+      "a": 19.2,
+      "b": 22.9
     },
     "hsv": {
-      "h": 17.8,
-      "s": 0.479,
-      "v": 0.663
+      "h": 18.5,
+      "s": 0.482,
+      "v": 0.659
     },
-    "sortKey": 48813.24721712199
+    "sortKey": 50027.77824311711
   },
   {
     "file": "ROM_LMP_10.png",
@@ -1959,19 +1938,19 @@
     "rgb": {
       "r": 171,
       "g": 125,
-      "b": 103
+      "b": 104
     },
     "lab": {
       "L": 56.4,
-      "a": 14.9,
-      "b": 19
+      "a": 15,
+      "b": 18.5
     },
     "hsv": {
-      "h": 19.4,
-      "s": 0.398,
+      "h": 18.8,
+      "s": 0.392,
       "v": 0.671
     },
-    "sortKey": 51900.33317581246
+    "sortKey": 50863.60253398152
   },
   {
     "file": "ROM_CLM_07.png",
@@ -2037,27 +2016,6 @@
     "sortKey": 54849.14149444122
   },
   {
-    "file": "ROM_CLM_00.png",
-    "url": "/textures/lipstick/ROM_CLM_00.png",
-    "label": "Nude",
-    "rgb": {
-      "r": 217,
-      "g": 200,
-      "b": 189
-    },
-    "lab": {
-      "L": 81.7,
-      "a": 4.1,
-      "b": 7.6
-    },
-    "hsv": {
-      "h": 23.6,
-      "s": 0.129,
-      "v": 0.851
-    },
-    "sortKey": 61712.247143384324
-  },
-  {
     "file": "ROM_LMP_05.png",
     "url": "/textures/lipstick/ROM_LMP_05.png",
     "label": "Beige Nude",
@@ -2077,5 +2035,47 @@
       "v": 0.733
     },
     "sortKey": 70112.4501650152
+  },
+  {
+    "file": "ROM_CLM_00.png",
+    "url": "/textures/lipstick/ROM_CLM_00.png",
+    "label": "Nude",
+    "rgb": {
+      "r": 232,
+      "g": 231,
+      "b": 234
+    },
+    "lab": {
+      "L": 91.8,
+      "a": 0.9,
+      "b": -1.3
+    },
+    "hsv": {
+      "h": 260,
+      "s": 0.013,
+      "v": 0.918
+    },
+    "sortKey": 303082.6828173702
+  },
+  {
+    "file": "ROM_BFT_GJ_19.png",
+    "url": "/textures/lipstick/ROM_BFT_GJ_19.png",
+    "label": "Warm Pink",
+    "rgb": {
+      "r": 69,
+      "g": 64,
+      "b": 66
+    },
+    "lab": {
+      "L": 27.6,
+      "a": 2.6,
+      "b": -0.5
+    },
+    "hsv": {
+      "h": 336,
+      "s": 0.072,
+      "v": 0.271
+    },
+    "sortKey": 349981.23877875734
   }
 ]
