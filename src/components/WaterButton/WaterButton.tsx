@@ -103,7 +103,7 @@ function WaterScene({ texture, onClick, onHoverChange }: SceneProps) {
   const groupRef = useRef<THREE.Group>(null)
   const mat      = useMemo(() => getWaterMaterial(), [])
   const sphereGeo = useMemo(() => getWaterSphereGeo(), [])
-  const causticTex = useMemo(() => getCausticTexture(), [])
+  // caustic removed — thin glass (thickness=0.2) doesn't need it
 
   // Hover scale
   useFrame((_, dt) => {
@@ -136,18 +136,6 @@ function WaterScene({ texture, onClick, onHoverChange }: SceneProps) {
       {/* Layer 4 — Contact shadow */}
       <WaterShadow />
 
-      {/* Caustic glow — bright starburst spread matching the reference */}
-      <mesh position={[0, -1.06, 0]} rotation={[-Math.PI / 2, 0, 0]}>
-        <planeGeometry args={[6, 6]} />
-        <meshBasicMaterial
-          map={causticTex}
-          transparent
-          depthWrite={false}
-          blending={THREE.AdditiveBlending}
-          toneMapped={false}
-        />
-      </mesh>
-
     </group>
   )
 }
@@ -166,8 +154,8 @@ function TextureLoader({ textureUrl, ...rest }: LoaderProps) {
   useEffect(() => {
     raw.colorSpace  = THREE.SRGBColorSpace
     raw.wrapS       = raw.wrapT = THREE.ClampToEdgeWrapping
-    raw.repeat.set(0.58, 0.58)
-    raw.offset.set(0.21, 0.22)
+    raw.repeat.set(0.72, 0.72)
+    raw.offset.set(0.14, 0.14)
     raw.needsUpdate = true
   }, [raw])
 

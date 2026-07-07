@@ -1,14 +1,15 @@
 'use client'
 
 /**
- * LipstickLayer — the texture disc that floats inside the water sphere.
+ * LipstickLayer — a flat PNG plane suspended inside the water sphere.
  *
- * Rules:
- * - Uses the shared circle geometry (never recreated).
- * - Per-instance material holds only the texture map.
- * - alphaTest=0.5: renders in the OPAQUE pass so Three.js includes it in the
- *   transmission render buffer → visible through the glass via physical IOR.
- * - Raycasting disabled: pointer events belong to the sphere, not this disc.
+ * This is NOT projected onto the sphere. It is simply a flat plane that sits
+ * inside the sphere volume. The transparent sphere renders on top of it.
+ * Because thickness=0.2 (thin glass), the sphere barely distorts the plane —
+ * it reads as a real object inside, not a texture on the surface.
+ *
+ * alphaTest keeps it in the OPAQUE render pass so Three.js captures it in
+ * the transmission buffer → visible through the glass.
  */
 
 import { useEffect, useRef } from 'react'
@@ -21,7 +22,7 @@ interface LipstickLayerProps {
 
 export function LipstickLayer({ texture }: LipstickLayerProps) {
   const meshRef = useRef<THREE.Mesh>(null)
-  const geo     = getLipstickCircleGeo() // shared singleton
+  const geo     = getLipstickCircleGeo()
 
   // Disable raycasting — sphere handles all pointer events
   useEffect(() => {
@@ -32,7 +33,7 @@ export function LipstickLayer({ texture }: LipstickLayerProps) {
     <mesh
       ref={meshRef}
       geometry={geo}
-      rotation={[0.12, 0.10, 0.05]}
+      rotation={[0.1, 0.08, 0.04]}
     >
       <meshBasicMaterial
         map={texture}
