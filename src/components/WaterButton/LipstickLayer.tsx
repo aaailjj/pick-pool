@@ -1,15 +1,17 @@
 'use client'
 
 /**
- * LipstickLayer — a flat PNG plane suspended inside the water sphere.
+ * LipstickLayer — Round 3: real cosmetic material.
  *
- * This is NOT projected onto the sphere. It is simply a flat plane that sits
- * inside the sphere volume. The transparent sphere renders on top of it.
- * Because thickness=0.2 (thin glass), the sphere barely distorts the plane —
- * it reads as a real object inside, not a texture on the surface.
+ * meshBasicMaterial ignores all lighting → flat PNG appearance.
+ * meshStandardMaterial responds to the approved RectAreaLight softboxes,
+ * creating natural directional shading across the texture surface.
+ * This is what makes the lipstick feel like a real 3D smear suspended
+ * inside the water rather than a texture printed on glass.
  *
- * alphaTest keeps it in the OPAQUE render pass so Three.js captures it in
- * the transmission buffer → visible through the glass.
+ * roughness=0.80  → matte/powdery cosmetic finish
+ * metalness=0     → non-metallic, natural pigment
+ * alphaTest keeps the disc in the OPAQUE pass → captured by transmission buffer
  */
 
 import { useEffect, useRef } from 'react'
@@ -24,7 +26,6 @@ export function LipstickLayer({ texture }: LipstickLayerProps) {
   const meshRef = useRef<THREE.Mesh>(null)
   const geo     = getLipstickCircleGeo()
 
-  // Disable raycasting — sphere handles all pointer events
   useEffect(() => {
     if (meshRef.current) meshRef.current.raycast = () => {}
   }, [])
@@ -35,12 +36,13 @@ export function LipstickLayer({ texture }: LipstickLayerProps) {
       geometry={geo}
       rotation={[0.1, 0.08, 0.04]}
     >
-      <meshBasicMaterial
+      <meshStandardMaterial
         map={texture}
+        roughness={0.80}
+        metalness={0}
         alphaTest={0.5}
         side={THREE.FrontSide}
         depthWrite={true}
-        toneMapped={false}
       />
     </mesh>
   )
