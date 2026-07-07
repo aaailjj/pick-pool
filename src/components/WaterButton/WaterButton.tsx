@@ -100,10 +100,10 @@ interface SceneProps {
 
 function WaterScene({ texture, onClick, onHoverChange }: SceneProps) {
   const [hovered, setHovered] = useState(false)
-  const groupRef = useRef<THREE.Group>(null)
-  const mat      = useMemo(() => getWaterMaterial(), [])
-  const sphereGeo = useMemo(() => getWaterSphereGeo(), [])
-  // caustic removed — thin glass (thickness=0.2) doesn't need it
+  const groupRef   = useRef<THREE.Group>(null)
+  const mat        = useMemo(() => getWaterMaterial(), [])
+  const sphereGeo  = useMemo(() => getWaterSphereGeo(), [])
+  const causticTex = useMemo(() => getCausticTexture(), [])
 
   // Hover scale
   useFrame((_, dt) => {
@@ -119,8 +119,12 @@ function WaterScene({ texture, onClick, onHoverChange }: SceneProps) {
   return (
     <group ref={groupRef}>
 
-      {/* Layer 1 — Lipstick (opaque pass → captured in transmission buffer) */}
-      <LipstickLayer texture={texture} />
+      {/* Layer 1 — Lipstick: pushed back in z so it sits deep inside the
+          sphere volume. The glass then refracts the disc slightly at edges,
+          creating optical depth without fisheye distortion. */}
+      <group position={[0, 0, -0.18]}>
+        <LipstickLayer texture={texture} />
+      </group>
 
       {/* Layer 2 — Water sphere (colorless physical transmission) */}
       <mesh
@@ -131,10 +135,25 @@ function WaterScene({ texture, onClick, onHoverChange }: SceneProps) {
         onClick={click}
       />
 
-      {/* Layer 3 — Highlight comes from clearcoat + env in WaterMaterial */}
+      {/* Layer 3 — Highlight from clearcoat + env (WaterMaterial) */}
 
       {/* Layer 4 — Contact shadow */}
       <WaterShadow />
+
+      {/* Layer 5 — Natural caustic: subtle warm glow below sphere.
+          AdditiveBlending on cream surface = very gentle brightening,
+          not a graphic effect. */}
+      <mesh position={[0, -1.05, 0]} rotation={[-Math.PI / 2, 0, 0]}>
+        <planeGeometry args={[3.5, 3.5]} />
+        <meshBasicMaterial
+          map={causticTex}
+          transparent
+          opacity={0.35}
+          depthWrite={false}
+          blending={THREE.AdditiveBlending}
+          toneMapped={false}
+        />
+      </mesh>
 
     </group>
   )
