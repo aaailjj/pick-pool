@@ -18,13 +18,13 @@ export function getWaterMaterial(): THREE.MeshPhysicalMaterial {
     _mat = new THREE.MeshPhysicalMaterial({
       transmission: 1,
       ior: 1.33,
-      thickness: 0.2,          // thin glass → plane inside reads flat, no fisheye
-      roughness: 0.02,
+      thickness: 0.15,          // thinner edge, less visual weight at rim
+      roughness: 0.0,            // perfectly smooth — no cloudiness
       metalness: 0,
-      clearcoat: 1.0,
-      clearcoatRoughness: 0.2,
+      clearcoat: 0.35,
+      clearcoatRoughness: 0.08,
       color: new THREE.Color(1, 1, 1),
-      envMapIntensity: 0.6,
+      envMapIntensity: 0.15,   // just enough warm light at rim, no visible apartment content
       side: THREE.FrontSide,
     })
     ;(_mat as any).attenuationDistance = Infinity
